@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Familia Connect",
+    "slug": "familia-connect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "familiaconnect",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.familiaconnect.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Familia Connect uses your photo library to add profile photos to family members."
+      }
+    },
+    "android": {
+      "package": "com.familiaconnect.app",
+      "permissions": [
+        "READ_MEDIA_IMAGES",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      "expo-image-picker"
+    ],
+    "extra": {
+      "apiUrl": "http://localhost:4000/api",
+      "eas": {
+        "projectId": "replace-with-eas-project-id"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "tree": {
+    "name": "Morgan Family",
+    "description": "Sample import backup."
+  },
+  "members": [
+    {
+      "fullName": "Eleanor Morgan",
+      "gender": "female",
+      "birthDate": "1944-02-18",
+      "biography": "Teacher and community organizer.",
+      "generation": 1,
+      "position": { "x": 120, "y": 40 }
+    },
+    {
+      "fullName": "Samuel Morgan",
+      "gender": "male",
+      "birthDate": "1941-09-04",
+      "deathDate": "2019-03-22",
+      "biography": "Loved woodworking and oral history.",
+      "generation": 1,
+      "position": { "x": 420, "y": 40 }
+    },
+    {
+      "fullName": "Daniel Morgan",
+      "gender": "male",
+      "birthDate": "1970-05-16",
+      "biography": "Architect.",
+      "generation": 0,
+      "position": { "x": 270, "y": 260 }
+    }
+  ]
+}
