@@ -11,7 +11,7 @@
     "android": "npm run android --workspace apps/mobile",
     "ios": "npm run ios --workspace apps/mobile",
     "build": "npm run build --workspaces",
-    "test": "npm run test --workspaces",
+    "test": "npm run test --workspace apps/api && npm run test --workspace apps/mobile && npm run test --workspace apps/web",
     "lint": "npm run lint --workspaces",
     "seed": "npm run seed --workspace apps/api"
   },
